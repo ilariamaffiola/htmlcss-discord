@@ -51,11 +51,18 @@ h1{
 /*Secondo layout*/
 .pk-col{
     width: 400px;
-    height: 385px;
 }
 .blue-col{
     width: 780px;
-    height: 385px;
+    
+}
+.bg-img-sec-lay{
+    background-image: url(../img/item1.svg);
+    background-repeat: no-repeat;
+}
+.bg-img-terzo-lay{
+    background-image: url(../img/item2.svg);
+    background-repeat: no-repeat;
 }
 /*Quinto layout*/
 .gr-col{
@@ -84,6 +91,9 @@ footer{
 
 
 /* utility */
+.height{
+    height: 500px;
+}
 .d-flex{
     display: flex;
 }
@@ -102,6 +112,15 @@ footer{
 .txt-cent{
     text-align: center;
 }
+.txt-left{
+    text-align: left;
+}
+.font-title-lay{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 45px;
+}
+
 .border-dash-bk-1px{
     border-color: black;
     border-width: 1px;
@@ -169,6 +188,9 @@ footer{
 .pad-top-bot-lay{
     padding-top: 8px;
     padding-bottom: 35px;
+}
+.pad-top-25{
+    padding-top: 25px;
 }
 .strct-bt{
     border-radius: 28px;
