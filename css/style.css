@@ -86,6 +86,10 @@ h1{
     width: 217px;
     height: 480px;
 }
+.w-h-ita{
+    width: 30px;
+    height: 19px;
+}
 /*FOOTER*/
 footer{
     padding-top: 25px;
@@ -96,7 +100,11 @@ footer{
     margin-top: 15px;
     margin-bottom: 15px;
 }
-
+.font-title-foot{
+    font-weight: 700;
+    font-style: normal;
+    font-size: 31px; 
+}
 
 /* utility */
 .height{
@@ -211,6 +219,12 @@ footer{
 }
 .pd-left-155{
     padding-left: 155px;
+}
+.pd-lft-5{
+    padding-left: 5px;
+}
+.pd-left-15px{
+    padding-left: 15px;
 }
 .strct-bt{
     border-radius: 28px;
