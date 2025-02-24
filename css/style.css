@@ -68,6 +68,11 @@ h1{
     background-image: url(../img/item3.svg);
     background-repeat: no-repeat;
 }
+.bg-adventure{
+    background-image: url(../img/stars.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+}
 /*Quinto layout*/
 .gr-col{
     width: 1180px;
@@ -99,6 +104,9 @@ footer{
 }
 .d-flex{
     display: flex;
+}
+.inline-block{
+    display: inline-block;
 }
 .space-eve{
     justify-content: space-evenly;
@@ -182,6 +190,9 @@ footer{
 .bg-whi{
     background-color: #fff;
 }
+.bg-lily{
+    background-color: #7289da;
+}
 .whi-txt{
     color: #fff;
 }
@@ -203,6 +214,10 @@ footer{
 }
 .strct-bt{
     border-radius: 28px;
+}
+.w-h-btn{
+    width: 205px;
+    height: 58px;
 }
 .fnt-p-sz{
     font-size: 21px;
