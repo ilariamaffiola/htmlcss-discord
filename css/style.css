@@ -34,10 +34,20 @@ header{
 /*Primo layout*/
 .small-container{
     width: 883px;
-    height: 355px;
-    display: flex;
     margin: 0 auto;
 }
+.bg-img-first-lay{
+    background-image: url(../img/jumbo.png);
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+h1{
+        font-family: "Lato", serif;
+        font-weight: 900;
+        font-style: normal;
+        font-size: 44px;
+}
+
 /*Secondo layout*/
 .pk-col{
     width: 400px;
@@ -79,6 +89,18 @@ footer{
 }
 .space-eve{
     justify-content: space-evenly;
+}
+.just-cent{
+    justify-content: center;
+}
+.space-around{
+    justify-content: space-around;
+}
+.space-bet{
+    justify-content: space-between;
+}
+.txt-cent{
+    text-align: center;
 }
 .border-dash-bk-1px{
     border-color: black;
@@ -141,6 +163,9 @@ footer{
 .pad-50{
     padding: 50px 0;
 }
+.pad-110{
+    padding: 110px 0;
+}
 .pad-top-bot-lay{
     padding-top: 8px;
     padding-bottom: 35px;
@@ -148,7 +173,17 @@ footer{
 .strct-bt{
     border-radius: 28px;
 }
-.fnt-hd-sz{
-    font-size: ;
+.fnt-p-sz{
+    font-size: 21px;
+    line-height: 1.5;
+    letter-spacing: 1px;
 }
-
+.pd-30{
+    padding: 30px;
+}
+.pd-12{
+    padding: 12px;
+}
+.margin-rht-25{
+    margin-right: 25px;
+}
