@@ -64,6 +64,10 @@ h1{
     background-image: url(../img/item2.svg);
     background-repeat: no-repeat;
 }
+.bg-img-quarto-lay{
+    background-image: url(../img/item3.svg);
+    background-repeat: no-repeat;
+}
 /*Quinto layout*/
 .gr-col{
     width: 1180px;
